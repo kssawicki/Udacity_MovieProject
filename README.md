@@ -32,11 +32,13 @@ name_of_movie = media.Movie(Title,
                         "Link to movie's image",
                         "Link to Youtube trailer"
 print (name_of_movie.storyline)
+```
 
 **Make sure all modules are within the same folder on your computer and that file names are lowercase (trust me, I
 felt like an idiot trying to link the modules using a different case: "Media" vs "media")**
 
 Lastly, remember to **import fresh_tomatoes** into the module of your instances of movies. 
+
 ## License
 
 MIT License
