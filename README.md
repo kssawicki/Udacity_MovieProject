@@ -10,9 +10,9 @@ The following python files are to serve as my submission for Udacity's "movie pr
 (_There aren't any issues or bugs to report so far, unless the movies' poster images/trailer links are deleted, lead to 404, etc._)
 
 ## Technical
-In order to create this project, you will need two separte modules (in this case, mine is media.py and entertainment center.py)
+1. In order to create this project, you will need two separte modules (in this case, mine is media.py and entertainment center.py)
 You can create these files (or customize the files I have provided) within your preferred Python IDLE. 
-The code can be easily customized by following the basic setup for your module that will layout the Movie() structure (my case: media.py):
+2. The code can be easily customized by following the basic setup for your module that will layout the Movie() structure (my case: media.py):
 ```
 title_of_movie = media.Movie(
     self, movie_title, movie_storyline, poster_image, trailer_youtube):
@@ -22,10 +22,10 @@ title_of_movie = media.Movie(
         self.trailer_youtube_url = trailer_youtube
 ```
 
-Within your second module (in this case, the entertainment_center.py module), follow along this basic
+3. Within your second module (in this case, the entertainment_center.py module), follow along this basic
 formula to submit up to 6 movie instances or beyond:
 ```
-#Comment what the following movie will be
+# Comment what the following movie will be
 
 name_of_movie = media.Movie(Title,
                         "Description of the movie's plot",
@@ -34,10 +34,15 @@ name_of_movie = media.Movie(Title,
 print (name_of_movie.storyline)
 ```
 
-**Make sure all modules are within the same folder on your computer and that file names are lowercase (trust me, I
+4. **Make sure all modules are within the same folder on your computer and that file names are lowercase (trust me, I
 felt like an idiot trying to link the modules using a different case: "Media" vs "media")**
 
-Lastly, remember to **import fresh_tomatoes** into the module of your instances of movies. 
+5. Remember to **import fresh_tomatoes** into the module of your instances of movies. 
+
+6. Once you have followed the above steps and saved both modules - "run" the program: "entertainment_center.py."
+
+To make sure the program has run properly, the generated HTML page should automatically pop up into your
+preferred broweser.
 
 ## License
 
