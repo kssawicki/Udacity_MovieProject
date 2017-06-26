@@ -42,7 +42,7 @@ felt like an idiot trying to link the modules using a different case: "Media" vs
 6. Once you have followed the above steps and saved both modules - "run" the program: "entertainment_center.py."
 
 To make sure the program has run properly, the generated HTML page should automatically pop up into your
-preferred broweser.
+preferred browser.
 
 ## License
 
